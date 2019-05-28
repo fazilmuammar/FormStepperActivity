@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ActivityFinally extends AppCompatActivity {
+public class ActivityThree extends AppCompatActivity {
 
     EditText phone,tanggal;
     Button save;

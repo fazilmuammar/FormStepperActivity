@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class PhoneActivity extends AppCompatActivity {
+public class ActivityTwo extends AppCompatActivity {
 
     EditText content;
     Button next;
@@ -33,7 +33,7 @@ public class PhoneActivity extends AppCompatActivity {
                 editor.putString("content", content.getText().toString());
                 editor.commit();
 
-                startActivity(new Intent(PhoneActivity.this, ActivityFinally.class));
+                startActivity(new Intent(ActivityTwo.this, ActivityThree.class));
             }
         });
     }
